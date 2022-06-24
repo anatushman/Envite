@@ -1,0 +1,104 @@
+        .cell {
+            width: 357px;
+            height: 306px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 40px -2px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+        }
+        
+        path.arrow {
+            visibility: hidden;
+            color: #ff707a;
+        }
+        
+        li.dot:first-child {
+            visibility: hidden;
+        }
+        
+        li.dot:last-child {
+            visibility: hidden;
+        }
+        
+        li.dot:nth-child(2) {
+            visibility: hidden;
+        }
+        
+        .cell:first-child {
+            margin-left: 24px;
+        }
+        
+        .cell:nth-child(2) {
+            margin-left: 24px;
+        }
+        
+        .cell:nth-child(3) {
+            margin-left: 24px;
+        }
+        
+        .cell:nth-child(4) {
+            margin-left: 24px;
+        }
+        
+        .cell:nth-child(5) {
+            margin-left: 24px;
+        }
+        
+        .cell:nth-child(6) {
+            margin-left: 24px;
+        }
+        
+        .italic-paragraph {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(25, 14, 47, 0.8);
+            font-style: italic;
+            font-family: "Poppins";
+            padding-top: 20px;
+            padding-left: 24px;
+            /* text-align: center; */
+        }
+        
+        .instructor-image {
+            padding-top: 65px;
+            padding-left: 24px;
+        }
+        
+        .pinktitle {
+            font-weight: 600;
+            color: #FF707A;
+        }
+        
+        .mark {
+            color: #F77881;
+            padding-top: 20px;
+            padding-left: 24px;
+        }
+        
+        .name {
+            display: block;
+            margin-top: -50px;
+            padding-left: 84px;
+        }
+        
+        .dawn {
+            color: rgba(155, 158, 163, 1);
+        }
+        
+        .slider {
+            margin-top: 68px;
+        }
+        
+        li.dot:hover {
+            background: #B9D7E0;
+            box-shadow: 0px 1px 6px -2px rgba(19, 123, 220, 0.6);
+            width: 14.83px;
+            height: 16px;
+        }
+        
+        @media (max-width: 400px) {
+            path.arrow {
+                visibility: visible;
+                color: #ff707a;
+            }
+        }
