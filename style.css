@@ -107,12 +107,12 @@ header {
     color: rgba(47, 37, 67, 0.56);
     font-weight: 600;
     display: flex;
+    padding-top: 17px;
 }
 
 .navigation_subitem a:hover {
     text-transform: uppercase;
     color: #000000;
-    font-weight: 900;
     display: flex;
 }
 
@@ -427,7 +427,6 @@ ul .dropdown-content:hover {
 
 .section2 {
     width: 100%;
-    height: 1332px;
     background: #f9f9f9;
     margin-top: 45px;
 }
@@ -730,9 +729,9 @@ ul .dropdown-content:hover {
 
 footer {
     width: 100%;
-    height: 432px;
     background: #474F5A;
     margin-top: 70px;
+    padding-bottom: 29px;
 }
 
 .footer {
@@ -965,9 +964,6 @@ footer {
         font-weight: 700;
         font-size: 24px;
     }
-    footer {
-        height: 957px;
-    }
     .footer {
         display: block;
         padding-left: 32px;
@@ -1039,6 +1035,9 @@ footer {
     }
     .menu-items.open {
         transform: translateX(0);
+    }
+    .dropdown-content {
+        display: none;
     }
 }
 
